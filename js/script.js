@@ -49,18 +49,17 @@ var myPlayList = [
 
 // DOCUMENT READY FUNCTION
 $( document ).ready(function() {
-  
+ displayList(){
 
 
 
 });
 
 function displayList(){
-
-
-  
+$(".songs").append("<p>: " + mySong.title + "</p>");
+  }
+$(".songs").append("<p>: " + mySong.artist + "</p>" );
 }
-
 function clearList(){
   
   
